@@ -12,6 +12,9 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button press = (Button)findViewById(R.id.press); //ref the button
+
+
         
 
             }
