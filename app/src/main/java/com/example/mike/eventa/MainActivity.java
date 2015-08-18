@@ -15,7 +15,14 @@ public class MainActivity extends ActionBarActivity {
         Button press = (Button)findViewById(R.id.press); //ref the button
 
 
-        
+        press.setOnClickListener(//set listener
+
+        new Button.OnClickListener(){   //what is listening
+
+            public void onClick(View v){ //what to do
+              TextView check;   //ref the text
+                check = (TextView)findViewById(R.id.check);
+                check.setText("this is important step");  //what it changes to
 
             }
         }
